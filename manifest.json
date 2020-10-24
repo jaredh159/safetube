@@ -1,0 +1,16 @@
+{
+  "name": "Wilhite SafeTube",
+  "version": "1.0",
+  "description": "Allow selective viewing of youtube content",
+  "manifest_version": 2,
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "css": ["styles.css"],
+      "js": ["script.js"]
+    }
+  ]
+}

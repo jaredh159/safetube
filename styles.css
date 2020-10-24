@@ -1,0 +1,12 @@
+.wilhite-safetube {
+  background: yellow;
+  width: 300px !important;
+  height: 100px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wilhite-safetube a:link {
+  color: black !important;
+  font-size: 30px !important;
+}
